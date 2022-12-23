@@ -1,6 +1,6 @@
 # BiliTools
 
-ECNU 2021Python课程项目 仅用于学习用途！  
+ECNU 2021Python课程项目 **仅用于学习用途！**  
 BiliTools基于Python编写，包含了视频筛选，收藏排序，视频下载，识别BGM等功能  
  
 ### Dependencies
@@ -10,6 +10,17 @@ BiliTools基于Python编写，包含了视频筛选，收藏排序，视频下�
 ```
 pip install requests
 pip install pyqt5
+```
+如果遇到版本问题造成的报错，可以参考本人的版本号：
+
+```
+PyQt5                             5.15.4
+pyqt5-plugins                     5.15.4.2.2
+PyQt5-Qt5                         5.15.2
+PyQt5-sip                         12.9.0
+pyqt5-tools                       5.15.4.3.2
+PyQtWebEngine                     5.15.5
+PyQtWebEngine-Qt5                 5.15.2
 ```
  
 关于识别BGM使用了ACRCloud，请事先注册账号获得`access_key`和`access_secret`，并填入`/Parse/musicRecognize.py`中
