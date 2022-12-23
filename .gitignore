@@ -1,0 +1,5 @@
+dist
+.idea
+__pycache__
+**/UI/**
+Cookie
